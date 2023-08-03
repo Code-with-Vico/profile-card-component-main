@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: hsl(185, 75%, 39%) url("/images/bg-pattern-top.svg") no-repeat left/45%;
+    background-position-y: -19rem;
+}
+
+.container {
+    background: url("/images/bg-pattern-bottom.svg") no-repeat right/50%;
+    background-position-y: 20rem;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 22rem;
+    border-radius: 10px;
+}
+
+.card .svg img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.main-body {
+    display: flex;    
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.main-body h4 {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.main-body span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.profile-pic {
+    align-self: center;
+    position: relative;
+    top: -50px;
+    height: 3rem;
+    /* border-radius: 55%; */
+}
+
+.profile-pic img {
+    /* outline: auto white 10px; */
+    clip-path: circle(50%);
+}
+
+.info {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.info .name {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+.name span {
+    color: hsl(227, 10%, 46%);
+}
+
+hr {
+    color: hsl(0, 0%, 59%);
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.social span {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    /* text-align: right;  */
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
