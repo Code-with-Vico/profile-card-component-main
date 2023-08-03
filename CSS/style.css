@@ -13,7 +13,7 @@ body {
 .container {
     background: url("/images/bg-pattern-bottom.svg") no-repeat right/50%;
     background-position-y: 20rem;
-    height: 98vh;
+    height: 97vh;
     display: flex;
     align-items: center;
     justify-content: center;
